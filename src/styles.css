@@ -1,0 +1,62 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.bppopup-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.bppopup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 40vw;
+  max-height: 30vh;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: antiquewhite;
+}
+
+.bppopup-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bppopup-content {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  overflow: scroll;
+}
+.bppopup-title h2 {
+  margin: 0px;
+}
+
+.bppopup-close-icon {
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.popup-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.popup-footer button {
+  cursor: pointer;
+}
+
+.popup-footer button {
+  background-color: antiquewhite;
+  border: 2px solid black;
+  border-radius: 5px;
+}
